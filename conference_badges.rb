@@ -26,4 +26,5 @@ def printer(attendees)
   room_assignments.each do |room_assignment|
   puts "Hello, my name is #{badge}. You'll be assigned to room #{room_assignment}"
   end
+  end
 end
