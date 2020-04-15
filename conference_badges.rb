@@ -22,5 +22,6 @@ end
 def printer(attendees)
   badges=batch_badge_creator(attendees)
   room_assignments=assign_rooms(attendees)
+  attendees.each_with_index do
   puts "#{badges} #{room_assignments}"
 end
