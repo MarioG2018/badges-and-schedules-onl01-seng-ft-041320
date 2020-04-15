@@ -21,6 +21,7 @@ end
 
 def printer(attendees)
   printers=[]
-  attendees.each_with_index do |assign_rooms,batch_badge_creator|
-  puts 
+  attendees.each do |batch_badge_creator|
+  printers.push("Hello, my name is#{batch_badge_creator}!")
+  end
 end
