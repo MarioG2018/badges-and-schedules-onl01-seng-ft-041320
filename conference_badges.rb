@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   rooms=[]
-  attendees.
+  attendees.each
   rooms.push("Hello, #{} your room number is #{room}!")
   end
   rooms
