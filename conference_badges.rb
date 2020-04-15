@@ -30,4 +30,5 @@ end
 def printer(attendees)
   attendees.each do |printers|
   put "#{assign_rooms(printers)}"
+  end
 end
