@@ -28,7 +28,4 @@ end
 #end
 
 def printer(attendees)
-  attendees.each do |printers|
-  puts "#{assign_rooms(printers)}"
-  end
-end
+  puts "#{batch_badge_creator(attendees) #{assign_rooms}!"
