@@ -13,7 +13,7 @@ end
 
 def assign_rooms(attendees)
   rooms=[]
-  attendees.each_with_object do|attendees,rooms|
+  attendees.each_with_index do|attendees,rooms|
   rooms.push("Hello, #{attendees} your room number is #{rooms}!")
   end
   rooms
