@@ -28,7 +28,7 @@ end
 #end
 
 def printer(attendees)
-  attendees.each_line do |printers|
+  attendees.each do |printers|
   puts "#{assign_rooms(printers)}"
   end
 end
