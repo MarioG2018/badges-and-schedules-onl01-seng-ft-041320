@@ -24,4 +24,5 @@ def printer(attendees)
   room_assignments=assign_rooms(attendees)
   attendees.each_with_index do |badge,room_assignment|
   puts "#{badge} #{room_assignment}"
+  end
 end
