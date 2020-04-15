@@ -26,5 +26,6 @@ def printer(attendees)
   puts "#{badge}"
   end
   room_assignments.each do |room_assignment|
+  
   end
 end
